@@ -1,5 +1,6 @@
 ﻿using Pedidos.Domain.Model.Pagos.ValueObjetcs;
 using Pedidos.Domain.ValueObjects;
+using Reservas.Domain.Event;
 using ShareKernel.Core;
 using System;
 using System.Collections.Generic;
@@ -41,7 +42,7 @@ namespace Pedidos.Domain.Model.Pagos
                     // Generar NRO Factura
                     Factura factura = new Factura(reservaId, monto);
                     string nroFactura = factura.getNroFactura();
-                    AddDomainEvent(new ReservaPagada(pcion));
+                    AddDomainEvent(new ReservaPagada(reservaId));
 
                 }
                 else { 
