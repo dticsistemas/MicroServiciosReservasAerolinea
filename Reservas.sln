@@ -9,6 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservas.Domain", "Pedidos.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservas.ConsoleUI", "Pedidos.ConsoleUI\Reservas.ConsoleUI.csproj", "{4F2F5010-7AEE-425E-8163-34134238E19A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservasApplication", "ReservasApplication\ReservasApplication.csproj", "{90A5D4E7-CB15-40F3-8D48-AE91598CBCBB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{45D00A6C-D2B4-48AE-8864-8B10B1FF658C} = {45D00A6C-D2B4-48AE-8864-8B10B1FF658C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservas.Infraestructura", "Reservas.Infraestructura\Reservas.Infraestructura.csproj", "{6E67EBAE-B87C-4438-B2F4-A19B20BEA218}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservas.WebApi", "Reservas.WebApi\Reservas.WebApi.csproj", "{87884D28-518D-4BD3-927C-FC5F57E56998}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +36,18 @@ Global
 		{4F2F5010-7AEE-425E-8163-34134238E19A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F2F5010-7AEE-425E-8163-34134238E19A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F2F5010-7AEE-425E-8163-34134238E19A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A5D4E7-CB15-40F3-8D48-AE91598CBCBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A5D4E7-CB15-40F3-8D48-AE91598CBCBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A5D4E7-CB15-40F3-8D48-AE91598CBCBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A5D4E7-CB15-40F3-8D48-AE91598CBCBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E67EBAE-B87C-4438-B2F4-A19B20BEA218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E67EBAE-B87C-4438-B2F4-A19B20BEA218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E67EBAE-B87C-4438-B2F4-A19B20BEA218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E67EBAE-B87C-4438-B2F4-A19B20BEA218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87884D28-518D-4BD3-927C-FC5F57E56998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87884D28-518D-4BD3-927C-FC5F57E56998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87884D28-518D-4BD3-927C-FC5F57E56998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87884D28-518D-4BD3-927C-FC5F57E56998}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
